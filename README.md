@@ -1,23 +1,15 @@
-# Hello world docker action
+# SensioLabs Security Checker Action
 
-This action prints "Hello World" to the log or "Hello" + the name of a person to greet. To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation.
+The SensioLabs Security Checker is a command line tool that checks if your application uses dependencies with known security vulnerabilities.
 
 ## Inputs
 
-### `who-to-greet`
+No inputs to be given.
 
-**Required** The name of the person to greet. Default `"World"`.
-
-## Outputs
-
-### `time`
-
-The time we greeted you.
 
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-docker-action@master
-with:
-  who-to-greet: 'Mona the Octocat'
+uses: umutphp/sensiolabs-security-checker-action@v1
+
 ```

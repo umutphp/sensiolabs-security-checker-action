@@ -1,5 +1,5 @@
 name: 'SensioLabs Security Checker Action'
-description: 'The SensioLabs Security Checker is a command line tool that checks if your application uses dependencies with known security vulnerabilities.'
+description: 'A command line tool that checks if your application uses dependencies with known security vulnerabilities.'
 branding:
   icon: 'check-square'
   color: 'green'
